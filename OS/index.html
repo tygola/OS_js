@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Operacional de navegador</title>
+
+    <link rel="shortcut icon" href="assets/images/web/3723582.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+
+    <script src="https://kit.fontawesome.com/8087219881.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="br-os-container">
+        <div id="br-os-apps">
+            <div class="app"></div>
+        </div>
+        <div id="taskbar"></div>
+    </div>
+
+    <div class="br-os-window" draggable="true">
+        <div class="window-bar">
+            <div class="brand"></div>
+            <div class="buttons">
+                <button id="maxmise">
+                    <i class="fa fa-window-maximize"></i>
+                </button>
+                <button id="shorter">
+                    <i class="fa fa-window-restore"></i>
+                </button>
+                <button id="cross">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <div class="app" id="app-main"></div>
+    </div>
+
+    <div id="app-hide"></div>
+
+    <nav id="os-ct-menu">
+        <ul>
+            <li><a href="javascript:;">Abrir</a></li>
+            <li><a href="javascript:;">Abrir como administrador</a></li>
+            <li><a href="javascript:;">Excluir</a></li>
+            <li><a href="javascript:;">Propiedades</a></li>
+        </ul>
+    </nav>
+    
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
